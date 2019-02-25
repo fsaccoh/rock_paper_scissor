@@ -53,7 +53,7 @@ function game(){
     
     for (var i=1; i<=5; i++){
         let playerChoice = prompt("Rock, Paper, or Scissors?").toLowerCase();
-        let machineChoice = computerPlay();
+        let machineChoice = machinePlay();
         result = playRound(playerChoice, machineChoice);
         console.log("Round " + i + ": " + result);
 
